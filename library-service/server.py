@@ -28,4 +28,4 @@ def get_book_info(book_id):
     return jsonify(books[book_id])
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8001)
+    app.run(debug=False,port=8001)

@@ -7,8 +7,8 @@ LIBRARY_SERVICE_REMOTE_URL = 'http://s7fyhrsrlh44wlbimeyvvqygazaxo3fjfyqpentn4aj
 
 sess = requests.Session()
 sess.proxies = {
-    'http':  'socks5://127.0.0.1:9050',
-    'https': 'socks5://127.0.0.1:9050'
+    'http':  'socks5h://127.0.0.1:9050',
+    'https': 'socks5h://127.0.0.1:9050'
     }
 
 users = [
@@ -38,4 +38,4 @@ def get_book_info(user_id):
     })
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8000)
+    app.run(debug=False,port=8000)
