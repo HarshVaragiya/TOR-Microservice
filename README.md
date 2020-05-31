@@ -1,4 +1,4 @@
-# Tor Microservices
+# Tor Microservice
 
 An experiment to distribute a website onto multiple servers/containers on the tor network
 
